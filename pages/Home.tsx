@@ -42,7 +42,7 @@ const Home: React.FC = () => {
     }
   }, []);
 
-  // NEW ANIMATION: Interactive Neural Network (Flashy & Digital)
+  // NEW ANIMATION: Matrix Digital Rain (High Visibility & Digital Feel)
   useEffect(() => {
     const canvas = canvasRef.current;
     if (!canvas) return;
@@ -53,120 +53,50 @@ const Home: React.FC = () => {
     let height = canvas.height = window.innerHeight;
     let animationFrameId: number;
 
-    // Mouse state
-    let mouse = { x: -1000, y: -1000 };
+    const fontSize = 16;
+    const columns = Math.ceil(width / fontSize);
+    const drops: number[] = [];
 
-    const handleMouseMoveCanvas = (e: MouseEvent) => {
-      // Correct for canvas position if needed, though mostly it's full screen 0,0
-      const rect = canvas.getBoundingClientRect();
-      mouse.x = e.clientX - rect.left;
-      mouse.y = e.clientY - rect.top;
-    };
-    
-    window.addEventListener('mousemove', handleMouseMoveCanvas);
-
-    // Particle Configuration
-    // Increase/Decrease density
-    const PARTICLE_DENSITY = 9000; // Lower is more dense
-    const PARTICLE_COUNT = Math.min(Math.floor((width * height) / PARTICLE_DENSITY), 150); 
-    const CONNECTION_DIST = 160;
-    const MOUSE_DIST = 200;
-    
-    class Particle {
-      x: number;
-      y: number;
-      vx: number;
-      vy: number;
-      size: number;
-      color: string;
-
-      constructor() {
-        this.x = Math.random() * width;
-        this.y = Math.random() * height;
-        this.vx = (Math.random() - 0.5) * 0.8; // Speed X
-        this.vy = (Math.random() - 0.5) * 0.8; // Speed Y
-        this.size = Math.random() * 2 + 1.5;
-        // Randomly assign Brand Red or White for high contrast
-        this.color = Math.random() > 0.5 ? '#9c2948' : '#ffffff'; 
-      }
-
-      update() {
-        this.x += this.vx;
-        this.y += this.vy;
-
-        // Bounce off edges
-        if (this.x < 0 || this.x > width) this.vx *= -1;
-        if (this.y < 0 || this.y > height) this.vy *= -1;
-
-        // Interactive Repulsion/Attraction
-        const dx = mouse.x - this.x;
-        const dy = mouse.y - this.y;
-        const distance = Math.sqrt(dx * dx + dy * dy);
-
-        if (distance < MOUSE_DIST) {
-           const forceDirectionX = dx / distance;
-           const forceDirectionY = dy / distance;
-           const maxDistance = MOUSE_DIST;
-           const force = (maxDistance - distance) / maxDistance;
-           
-           // Slight repulsion to create movement
-           const pushStrength = 2;
-           this.x -= forceDirectionX * force * pushStrength;
-           this.y -= forceDirectionY * force * pushStrength;
-        }
-      }
-
-      draw() {
-        if(!ctx) return;
-        ctx.beginPath();
-        ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
-        ctx.fillStyle = this.color;
-        ctx.fill();
-      }
-    }
-
-    const particlesArray: Particle[] = [];
-    for (let i = 0; i < PARTICLE_COUNT; i++) {
-        particlesArray.push(new Particle());
+    // Initialize drops scattered vertically so the screen starts full
+    for (let i = 0; i < columns; i++) {
+        drops[i] = Math.random() * (height / fontSize);
     }
 
     const animate = () => {
-      if (!ctx) return;
-      ctx.clearRect(0, 0, width, height);
+      // Trail effect: semi-transparent background clears previous frame slowly
+      // opacity 0.1 means long trails, 0.2 shorter trails
+      ctx.fillStyle = 'rgba(8, 10, 16, 0.15)'; 
+      ctx.fillRect(0, 0, width, height);
+
+      ctx.font = 'bold 14px "Courier New", monospace';
       
-      // Update and Draw Particles
-      for (let i = 0; i < particlesArray.length; i++) {
-        particlesArray[i].update();
-        particlesArray[i].draw();
-
-        // Draw Connections
-        for (let j = i; j < particlesArray.length; j++) {
-            const dx = particlesArray[i].x - particlesArray[j].x;
-            const dy = particlesArray[i].y - particlesArray[j].y;
-            const distance = Math.sqrt(dx * dx + dy * dy);
-
-            if (distance < CONNECTION_DIST) {
-                ctx.beginPath();
-                const opacity = 1 - (distance / CONNECTION_DIST);
-                
-                // Interaction: If close to mouse, make line WHITE and brighter
-                const distMouse = Math.sqrt(Math.pow(particlesArray[i].x - mouse.x, 2) + Math.pow(particlesArray[i].y - mouse.y, 2));
-
-                if (distMouse < MOUSE_DIST) {
-                    ctx.strokeStyle = `rgba(255, 255, 255, ${opacity})`;
-                    ctx.lineWidth = 1;
-                } else {
-                    ctx.strokeStyle = `rgba(156, 41, 72, ${opacity * 0.4})`; // Brand Red dim
-                    ctx.lineWidth = 0.5;
-                }
-                
-                ctx.moveTo(particlesArray[i].x, particlesArray[i].y);
-                ctx.lineTo(particlesArray[j].x, particlesArray[j].y);
-                ctx.stroke();
-            }
+      for (let i = 0; i < drops.length; i++) {
+        // Random character: 0, 1, or drive-related characters
+        const chars = "010110DRIVE";
+        const text = chars[Math.floor(Math.random() * chars.length)];
+        
+        // Logic for "glitch" or "highlight" (White flash) vs Brand Color
+        const isHighlight = Math.random() > 0.98;
+        
+        if (isHighlight) {
+            ctx.fillStyle = '#ffffff'; // White highlight
+        } else {
+            ctx.fillStyle = '#9c2948'; // Drive Accent Red
         }
-      }
 
+        const x = i * fontSize;
+        const y = drops[i] * fontSize;
+
+        ctx.fillText(text, x, y);
+
+        // Reset drop to top randomly
+        if (y > height && Math.random() > 0.975) {
+          drops[i] = 0;
+        }
+        
+        drops[i]++;
+      }
+      
       animationFrameId = requestAnimationFrame(animate);
     };
 
@@ -175,18 +105,17 @@ const Home: React.FC = () => {
     const handleResize = () => {
       width = canvas.width = window.innerWidth;
       height = canvas.height = window.innerHeight;
-      // Reset particles on resize to avoid stretching issues
-      particlesArray.length = 0;
-      const newCount = Math.min(Math.floor((width * height) / PARTICLE_DENSITY), 150);
-      for (let i = 0; i < newCount; i++) {
-         particlesArray.push(new Particle());
+      // Re-init columns
+      const newColumns = Math.ceil(width / fontSize);
+      drops.length = 0;
+      for (let i = 0; i < newColumns; i++) {
+         drops[i] = Math.random() * (height / fontSize);
       }
     };
 
     window.addEventListener('resize', handleResize);
 
     return () => {
-      window.removeEventListener('mousemove', handleMouseMoveCanvas);
       window.removeEventListener('resize', handleResize);
       cancelAnimationFrame(animationFrameId);
     };
@@ -280,11 +209,11 @@ const Home: React.FC = () => {
         {/* Background Animation Canvas */}
         <canvas 
           ref={canvasRef} 
-          className="absolute inset-0 w-full h-full z-0"
+          className="absolute inset-0 w-full h-full z-0 opacity-80"
         />
         
-        {/* Overlay - Lighter gradient to show off the particles more */}
-        <div className="absolute inset-0 bg-gradient-to-b from-[#080a10]/60 via-transparent to-[#080a10] z-0 pointer-events-none"></div>
+        {/* Overlay - Gradient to ensure text readability over the busy background */}
+        <div className="absolute inset-0 bg-gradient-to-b from-[#080a10]/80 via-[#080a10]/50 to-[#080a10] z-0 pointer-events-none"></div>
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,transparent_0%,#080a10_90%)] z-0 pointer-events-none"></div>
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center pointer-events-none">
