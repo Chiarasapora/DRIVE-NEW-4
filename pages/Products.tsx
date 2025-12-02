@@ -11,7 +11,7 @@ const productsData = [
     subtitle: 'Il Sistema Operativo della Tua Azienda',
     category: 'SOFTWARE CLOUD & ERP',
     description: "Una piattaforma all-in-one che centralizza magazzino, ordini, fatturazione e CRM. Elimina i silos di dati e connetti ogni reparto in tempo reale.",
-    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80',
+    image: '/SOSTRATO WEB/Hero_Section_Sostrato.webp',
     link: '/prodotti/sostrato-web',
     icon: <Database size={24} />,
     features: ['Gestione Magazzino', 'Integrazione E-commerce', 'Business Intelligence']
@@ -22,7 +22,7 @@ const productsData = [
     subtitle: 'Gestione Abbonamenti Semplificata',
     category: 'FINTECH & PAYMENTS',
     description: "La soluzione definitiva per gestire pagamenti ricorrenti e abbonamenti. Integra Stripe e PayPal in minuti, gestisci i rinnovi e scala il tuo modello SaaS o Service-based.",
-    image: 'https://images.unsplash.com/photo-1620121692029-d088224ddc74?auto=format&fit=crop&w=800&q=80',
+    image: '/SHIPYO/Hero_Section_Shipyo.webp',
     link: '/prodotti/shipyo',
     icon: <CreditCard size={24} />,
     features: ['Gateway Multipli', 'Gestione Rinnovi', 'Dashboard Ricavi']
@@ -33,7 +33,7 @@ const productsData = [
     subtitle: 'Formazione AI per Aziende',
     category: 'EDUTECH & AI',
     description: "La piattaforma formativa per portare l'Intelligenza Artificiale nella tua azienda. Corsi pratici, tutoraggio e strumenti per trasformare il tuo team in esperti di automazione.",
-    image: 'https://images.unsplash.com/photo-1616469829941-c7200edec809?auto=format&fit=crop&w=800&q=80',
+    image: '/AIAMICA/Hero_Section_AiAmica.webp',
     link: '/prodotti/aiamica',
     icon: <BrainCircuit size={24} />,
     features: ['Corsi Asincroni', 'Tutoraggio Live', 'Certificazioni']

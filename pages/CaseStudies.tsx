@@ -11,7 +11,7 @@ export const caseStudiesData = [
     category: 'BRAND IDENTITY & E-COMMERCE',
     client: 'Moolecola Beauty & Cosmetics',
     // Cosmetic/Beauty/Natural aesthetic
-    image: 'https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?auto=format&fit=crop&w=2000&q=80',
+    image: '/E-COMMERCE & MARKETPLACE AMAZON/Hero_Section_Marketplace_Ecommerce.webp',
     stats: [
       { value: '100%', label: 'Ingredienti Naturali' },
       { value: 'Best Seller', label: 'I-Collagen' },
@@ -43,7 +43,7 @@ export const caseStudiesData = [
     category: 'DIGITAL TRANSFORMATION & TRAINING',
     client: 'Confagricoltura Umbria',
     // Agriculture/Tech/Drone
-    image: 'https://images.unsplash.com/photo-1625246333195-78d9c38ad449?auto=format&fit=crop&w=2000&q=80',
+    image: '/TRAFORMAZIONE DIGITALE/Hero_Section_Traformazione.webp',
     stats: [
       { value: '40 Anni', label: 'Di Esperienza' },
       { value: 'ISO 9001', label: 'Certificata' },
@@ -75,7 +75,7 @@ export const caseStudiesData = [
     category: 'MARKETPLACE GROWTH',
     client: 'Produttore settore Beauty (Partner Marketplace Arena)',
     // Amazon packages/Growth
-    image: 'https://images.unsplash.com/photo-1523474253046-8cd2748b5fd2?auto=format&fit=crop&w=2000&q=80',
+    image: '/E-COMMERCE & MARKETPLACE AMAZON/Card_1_Marketplace.webp',
     stats: [
       { value: '€450k', label: 'Fatturato 7 Mesi' },
       { value: '22.000', label: 'Unità Vendute' },
@@ -108,7 +108,7 @@ export const caseStudiesData = [
     category: 'PERFORMANCE MARKETING',
     client: 'Areapharm',
     // Health/Wellness/Lab
-    image: 'https://images.unsplash.com/photo-1512069772995-ec65ed45afd6?auto=format&fit=crop&w=2000&q=80',
+    image: '/SERVIZI/Hero_Section_Servizi.webp',
     stats: [
       { value: '360°', label: 'Salute Integrata' },
       { value: '100%', label: 'Trasparenza' },
@@ -140,7 +140,7 @@ export const caseStudiesData = [
     category: 'ARTIFICIAL INTELLIGENCE',
     client: 'Azienda di Servizi B2B',
     // Abstract AI/Tech
-    image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=2000&q=80',
+    image: '/FLUSSI AI/Hero_Section_Flussi_Ai.webp',
     stats: [
       { value: '-60%', label: 'Tempo Operativo' },
       { value: '24/7', label: 'Disponibilità' },
@@ -172,7 +172,7 @@ export const caseStudiesData = [
     category: 'PRODUCT DESIGN & R&D',
     client: 'Startup Tech Innovativa',
     // Design/Prototyping/Blueprint
-    image: 'https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?auto=format&fit=crop&w=2000&q=80',
+    image: '/PRODOTTI/Hero_Section_Prodotti.webp',
     stats: [
       { value: 'MVP', label: 'In 8 Settimane' },
       { value: 'Award', label: 'UX Design' },

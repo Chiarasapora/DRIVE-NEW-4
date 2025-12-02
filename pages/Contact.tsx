@@ -94,12 +94,14 @@ const Contact: React.FC = () => {
                  Invia un messaggio
                </h3>
 
-               <form className="space-y-6 relative z-10">
+               <form action="https://n8n.drive-gest.it/webhook/6f90df94-6c5f-438a-ae6d-6cea89ede7df" method="POST" className="space-y-6 relative z-10">
                  <div>
                    <label className="block text-xs font-bold text-drive-accent uppercase tracking-widest mb-2">Nome e Cognome</label>
                    <input 
                      type="text" 
+                     name="nome"
                      placeholder="Es. Mario Rossi" 
+                     required
                      className="w-full bg-white border border-gray-300 rounded p-4 text-gray-900 text-base focus:border-drive-accent focus:outline-none transition-all placeholder-gray-500 shadow-sm" 
                    />
                  </div>
@@ -108,7 +110,19 @@ const Contact: React.FC = () => {
                    <label className="block text-xs font-bold text-drive-accent uppercase tracking-widest mb-2">Email Aziendale</label>
                    <input 
                      type="email" 
+                     name="email"
                      placeholder="Es. nome@azienda.it" 
+                     required
+                     className="w-full bg-white border border-gray-300 rounded p-4 text-gray-900 text-base focus:border-drive-accent focus:outline-none transition-all placeholder-gray-500 shadow-sm" 
+                   />
+                 </div>
+                 
+                 <div>
+                   <label className="block text-xs font-bold text-drive-accent uppercase tracking-widest mb-2">Telefono</label>
+                   <input 
+                     type="tel" 
+                     name="telefono"
+                     placeholder="Es. +39 075 123 4567" 
                      className="w-full bg-white border border-gray-300 rounded p-4 text-gray-900 text-base focus:border-drive-accent focus:outline-none transition-all placeholder-gray-500 shadow-sm" 
                    />
                  </div>
@@ -116,7 +130,7 @@ const Contact: React.FC = () => {
                  <div>
                    <label className="block text-xs font-bold text-drive-accent uppercase tracking-widest mb-2">A cosa sei interessato?</label>
                    <div className="relative">
-                     <select className="w-full bg-white border border-gray-300 rounded p-4 text-gray-900 text-base focus:border-drive-accent focus:outline-none appearance-none shadow-sm cursor-pointer">
+                     <select name="interesse" className="w-full bg-white border border-gray-300 rounded p-4 text-gray-900 text-base focus:border-drive-accent focus:outline-none appearance-none shadow-sm cursor-pointer">
                        <option>Sostrato Web</option>
                        <option>Shipyo</option>
                        <option>Aiamica</option>
@@ -135,8 +149,10 @@ const Contact: React.FC = () => {
                  <div>
                    <label className="block text-xs font-bold text-drive-accent uppercase tracking-widest mb-2">Messaggio</label>
                    <textarea 
+                     name="messaggio"
                      rows={4} 
                      placeholder="Raccontaci brevemente le tue esigenze..." 
+                     required
                      className="w-full bg-white border border-gray-300 rounded p-4 text-gray-900 text-base focus:border-drive-accent focus:outline-none transition-all placeholder-gray-500 shadow-sm resize-none"
                    ></textarea>
                  </div>
