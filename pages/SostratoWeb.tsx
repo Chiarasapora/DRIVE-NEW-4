@@ -11,7 +11,7 @@ const SostratoWeb: React.FC = () => {
       <section className="py-24 bg-[#080a10] relative overflow-hidden">
         <div className="absolute inset-0 z-0">
            <img 
-             src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=2000&q=80" 
+             src="/SOSTRATO WEB/Hero_Section_Sostrato.webp" 
              alt="Sostrato Web Dashboard" 
              className="w-full h-full object-cover opacity-30" 
            />
@@ -50,7 +50,7 @@ const SostratoWeb: React.FC = () => {
           <div className="rounded-xl overflow-hidden shadow-2xl border border-gray-800 relative group">
             <div className="absolute inset-0 bg-drive-accent/10 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none"></div>
             <img 
-              src="https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?auto=format&fit=crop&w=1200&q=80" 
+              src="/SOSTRATO WEB/Foto_1_Sostrato.webp" 
               alt="Sostrato Web Dashboard Analytics" 
               className="w-full object-cover" 
             />
@@ -127,7 +127,7 @@ const SostratoWeb: React.FC = () => {
                 {/* Background Image */}
                 <div className="absolute inset-0">
                   <img 
-                    src="https://images.unsplash.com/photo-1616401784845-180882ba9ba8?auto=format&fit=crop&w=1000&q=80" 
+                    src="/SOSTRATO WEB/Card_1_Sostrato.webp" 
                     alt="Warehouse B2B Logistics" 
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   />
@@ -168,7 +168,7 @@ const SostratoWeb: React.FC = () => {
                 {/* Background Image */}
                 <div className="absolute inset-0">
                   <img 
-                    src="https://images.unsplash.com/photo-1556740738-b6a63e27c4df?auto=format&fit=crop&w=1000&q=80" 
+                    src="/SOSTRATO WEB/Card_2_Sostrato.webp" 
                     alt="Omnichannel Retail" 
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   />
@@ -263,7 +263,7 @@ const SostratoWeb: React.FC = () => {
       {/* Full Width Visual Banner */}
       <section className="h-[300px] w-full relative overflow-hidden">
          <img 
-            src="https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=2000&q=80" 
+            src="/SOSTRATO WEB/Transizione_Sostrato.webp" 
             alt="Colorful Shipping Containers Logistics"
             className="w-full h-full object-cover object-center"
          />
@@ -322,7 +322,7 @@ const SostratoWeb: React.FC = () => {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <img
-            src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=2000&q=80"
+            src="/SOSTRATO WEB/CTA_Sostrato.webp"
             alt="Modern Warehouse Logistics"
             className="w-full h-full object-cover"
           />

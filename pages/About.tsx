@@ -11,7 +11,7 @@ const About: React.FC = () => {
        <section className="py-24 bg-[#080a10] relative overflow-hidden">
          <div className="absolute inset-0 z-0">
             <img 
-              src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=2000&q=80" 
+              src="/AZIENDA/Hero_Section_Azienda.webp" 
               alt="Team Collaboration" 
               className="w-full h-full object-cover opacity-40" 
             />
@@ -59,7 +59,7 @@ const About: React.FC = () => {
                 {/* Background Image */}
                 <div className="absolute inset-0">
                   <img 
-                    src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1000&q=80" 
+                    src="/AZIENDA/Card_1_Azienda.webp" 
                     alt="Vision Future" 
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   />
@@ -87,7 +87,7 @@ const About: React.FC = () => {
                 {/* Background Image */}
                 <div className="absolute inset-0">
                   <img 
-                    src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1000&q=80" 
+                    src="/AZIENDA/Card_2_Azienda.webp" 
                     alt="Mission Teamwork" 
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   />
@@ -197,7 +197,7 @@ const About: React.FC = () => {
          {/* Background Image */}
          <div className="absolute inset-0 z-0">
           <img
-            src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=2000&q=80"
+            src="/AZIENDA/CTA_Azienda.webp"
             alt="Modern Office"
             className="w-full h-full object-cover"
           />

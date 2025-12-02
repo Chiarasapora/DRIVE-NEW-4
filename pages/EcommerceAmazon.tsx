@@ -26,7 +26,7 @@ const EcommerceAmazon: React.FC = () => {
       <section className="py-24 bg-[#080a10] relative overflow-hidden">
         <div className="absolute inset-0 z-0">
            <img 
-             src="https://images.unsplash.com/photo-1580674285054-bed31e145f59?auto=format&fit=crop&w=2000&q=80" 
+             src="/E-COMMERCE & MARKETPLACE AMAZON/Hero_Section_Marketplace_Ecommerce.webp" 
              alt="Amazon Logistics and Ecommerce" 
              className="w-full h-full object-cover opacity-20" 
            />
@@ -158,7 +158,7 @@ const EcommerceAmazon: React.FC = () => {
                 {/* Background Image */}
                 <div className="absolute inset-0">
                   <img 
-                    src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&w=1000&q=80" 
+                    src="/E-COMMERCE & MARKETPLACE AMAZON/Card_1_Marketplace.webp" 
                     alt="Brand Launch Planning" 
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   />
@@ -199,7 +199,7 @@ const EcommerceAmazon: React.FC = () => {
                 {/* Background Image */}
                 <div className="absolute inset-0">
                   <img 
-                    src="https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=1000&q=80" 
+                    src="/E-COMMERCE & MARKETPLACE AMAZON/Card_2_Marketplace.webp" 
                     alt="Global Logistics Containers" 
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   />
@@ -270,7 +270,7 @@ const EcommerceAmazon: React.FC = () => {
       {/* Full Width Visual Banner */}
       <section className="h-[300px] w-full relative overflow-hidden">
          <img 
-            src="https://images.unsplash.com/photo-1523474253046-8cd2748b5fd2?auto=format&fit=crop&w=2000&q=80" 
+            src="/E-COMMERCE & MARKETPLACE AMAZON/Transizione_Marketplace.webp" 
             alt="Amazon Warehouse Packages"
             className="w-full h-full object-cover object-center"
          />
@@ -283,7 +283,7 @@ const EcommerceAmazon: React.FC = () => {
          {/* Background Image */}
          <div className="absolute inset-0 z-0">
           <img
-            src="https://images.unsplash.com/photo-1595225476474-87563907a212?auto=format&fit=crop&w=2000&q=80"
+            src="/E-COMMERCE & MARKETPLACE AMAZON/CTA_Marketplace.webp"
             alt="E-commerce Analytics"
             className="w-full h-full object-cover"
           />

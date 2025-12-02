@@ -28,7 +28,7 @@ const AiFlows: React.FC = () => {
       <section className="py-24 bg-[#080a10] relative overflow-hidden">
         <div className="absolute inset-0 z-0">
            <img 
-             src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=2000&q=80" 
+             src="/FLUSSI AI/Hero_Section_Flussi_Ai.webp" 
              alt="AI Workflows" 
              className="w-full h-full object-cover opacity-20" 
            />
@@ -168,7 +168,7 @@ const AiFlows: React.FC = () => {
                 {/* Background Image */}
                 <div className="absolute inset-0">
                   <img 
-                    src="https://images.unsplash.com/photo-1531746790731-6c087fecd65a?auto=format&fit=crop&w=1000&q=80" 
+                    src="/FLUSSI AI/Card_1_Flussi_Ai.webp" 
                     alt="AI Customer Service" 
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   />
@@ -209,7 +209,7 @@ const AiFlows: React.FC = () => {
                 {/* Background Image */}
                 <div className="absolute inset-0">
                   <img 
-                    src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=1000&q=80" 
+                    src="/FLUSSI AI/2Card_1_Flussi_Ai.webp" 
                     alt="Data Processing" 
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   />
@@ -280,7 +280,7 @@ const AiFlows: React.FC = () => {
       {/* Full Width Visual Banner */}
       <section className="h-[300px] w-full relative overflow-hidden">
          <img 
-            src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=2000&q=80" 
+            src="/FLUSSI AI/Transizione_Flussi.webp" 
             alt="Futuristic Robot AI"
             className="w-full h-full object-cover object-center"
          />
@@ -292,7 +292,7 @@ const AiFlows: React.FC = () => {
          {/* Background Image */}
          <div className="absolute inset-0 z-0">
           <img
-            src="https://images.unsplash.com/photo-1535378437327-10ffb8b9e97f?auto=format&fit=crop&w=2000&q=80"
+            src="/FLUSSI AI/CTA_Flussi.webp"
             alt="AI Connection"
             className="w-full h-full object-cover"
           />

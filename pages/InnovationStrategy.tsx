@@ -24,7 +24,7 @@ const InnovationStrategy: React.FC = () => {
       <section className="py-24 bg-[#080a10] relative overflow-hidden">
         <div className="absolute inset-0 z-0">
            <img 
-             src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=2000&q=80" 
+             src="/CONSULENZA & INNOVAZIONE/Hero_Section_Consulenza.webp" 
              alt="Innovation Strategy" 
              className="w-full h-full object-cover opacity-20" 
            />
@@ -77,7 +77,7 @@ const InnovationStrategy: React.FC = () => {
               <div className="rounded-xl overflow-hidden shadow-2xl border border-gray-800 relative group">
                 <div className="absolute inset-0 bg-drive-accent/10 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none"></div>
                 <img 
-                  src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1200&q=80" 
+                  src="/CONSULENZA & INNOVAZIONE/Foto_1_Consulenza.webp" 
                   alt="Strategic Consulting Meeting" 
                   className="w-full object-cover" 
                 />
@@ -155,7 +155,7 @@ const InnovationStrategy: React.FC = () => {
                 {/* Background Image */}
                 <div className="absolute inset-0">
                   <img 
-                    src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1000&q=80" 
+                    src="/CONSULENZA & INNOVAZIONE/Card_1_Consulenza.webp" 
                     alt="Analysis and Assessment" 
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   />
@@ -196,7 +196,7 @@ const InnovationStrategy: React.FC = () => {
                 {/* Background Image */}
                 <div className="absolute inset-0">
                   <img 
-                    src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=1000&q=80" 
+                    src="/CONSULENZA & INNOVAZIONE/Card_2_Consuelnza.webp" 
                     alt="Strategic Planning" 
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   />
@@ -267,7 +267,7 @@ const InnovationStrategy: React.FC = () => {
       {/* Full Width Visual Banner */}
       <section className="h-[300px] w-full relative overflow-hidden">
          <img 
-            src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=2000&q=80" 
+            src="/CONSULENZA & INNOVAZIONE/Transizione_Consulenza.webp" 
             alt="Strategic Meeting"
             className="w-full h-full object-cover object-center"
          />
@@ -308,7 +308,7 @@ const InnovationStrategy: React.FC = () => {
          {/* Background Image */}
          <div className="absolute inset-0 z-0">
           <img
-            src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&w=2000&q=80"
+            src="/CONSULENZA & INNOVAZIONE/CTA_Consulenza.webp"
             alt="Business Success"
             className="w-full h-full object-cover"
           />

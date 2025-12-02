@@ -24,7 +24,7 @@ const DigitalTransformation: React.FC = () => {
       <section className="py-24 bg-[#080a10] relative overflow-hidden">
         <div className="absolute inset-0 z-0">
            <img 
-             src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=2000&q=80" 
+             src="/TRAFORMAZIONE DIGITALE/Hero_Section_Traformazione.webp" 
              alt="Efficiency and Automation" 
              className="w-full h-full object-cover opacity-20" 
            />
@@ -65,7 +65,7 @@ const DigitalTransformation: React.FC = () => {
              <div className="rounded-xl overflow-hidden shadow-2xl border border-gray-800 relative group">
                 <div className="absolute inset-0 bg-drive-accent/10 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none"></div>
                 <img 
-                  src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80" 
+                  src="/TRAFORMAZIONE DIGITALE/Foto_1_Traformazione.webp" 
                   alt="Process Optimization Dashboard" 
                   className="w-full object-cover" 
                 />
@@ -157,7 +157,7 @@ const DigitalTransformation: React.FC = () => {
                 {/* Background Image */}
                 <div className="absolute inset-0">
                   <img 
-                    src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=1000&q=80" 
+                    src="/TRAFORMAZIONE DIGITALE/Card_1_Traformazione.webp" 
                     alt="Warehouse Operations" 
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   />
@@ -198,7 +198,7 @@ const DigitalTransformation: React.FC = () => {
                 {/* Background Image */}
                 <div className="absolute inset-0">
                   <img 
-                    src="https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=1000&q=80" 
+                    src="/TRAFORMAZIONE DIGITALE/Card_2_Traformazione.webp" 
                     alt="Administrative Tasks" 
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   />
@@ -269,7 +269,7 @@ const DigitalTransformation: React.FC = () => {
       {/* Full Width Visual Banner */}
       <section className="h-[300px] w-full relative overflow-hidden">
          <img 
-            src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=2000&q=80" 
+            src="/TRAFORMAZIONE DIGITALE/Transizione_Trasformazione.webp" 
             alt="Digital Tunnel Tech"
             className="w-full h-full object-cover object-center"
          />
@@ -281,7 +281,7 @@ const DigitalTransformation: React.FC = () => {
          {/* Background Image */}
          <div className="absolute inset-0 z-0">
           <img
-            src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=2000&q=80"
+            src="/TRAFORMAZIONE DIGITALE/CTA_Trasformazione.webp"
             alt="Global Digital Network"
             className="w-full h-full object-cover"
           />

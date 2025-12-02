@@ -329,7 +329,7 @@ const Home: React.FC = () => {
             <div className="relative">
                <div className="rounded-xl overflow-hidden border border-gray-800 shadow-2xl">
                  <img 
-                   src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80" 
+                   src="/HOME/Foto_1_Sostrato.webp" 
                    alt="Sostrato Dashboard" 
                    className="w-full h-auto opacity-90" 
                  />
@@ -450,7 +450,7 @@ const Home: React.FC = () => {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <img
-            src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=2000&q=80"
+            src="/HOME/CTA_Home.webp"
             alt="Digital Circuit Board"
             className="w-full h-full object-cover"
           />

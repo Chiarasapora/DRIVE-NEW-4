@@ -207,7 +207,7 @@ const CaseStudies: React.FC = () => {
       <section className="py-24 bg-[#080a10] relative overflow-hidden">
         <div className="absolute inset-0 z-0">
            <img 
-             src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=2000&q=80" 
+             src="/CASE STUDY/Hero_Section_Case_Study.webp" 
              alt="Success Stories and Growth" 
              className="w-full h-full object-cover opacity-50" 
            />
@@ -282,7 +282,7 @@ const CaseStudies: React.FC = () => {
          {/* Background Image */}
          <div className="absolute inset-0 z-0">
           <img
-            src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=2000&q=80"
+            src="/CASE STUDY/CTA_Case_Study.webp"
             alt="Data Driven Growth"
             className="w-full h-full object-cover"
           />

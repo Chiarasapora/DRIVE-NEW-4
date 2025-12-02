@@ -10,7 +10,7 @@ const Contact: React.FC = () => {
       <section className="py-24 bg-[#080a10] relative overflow-hidden">
         <div className="absolute inset-0 z-0">
            <img 
-             src="https://images.unsplash.com/photo-1516387938699-a93567ec168e?auto=format&fit=crop&w=2000&q=80" 
+             src="/CONTATTI/Hero_Section_Contatti.webp" 
              alt="Communication" 
              className="w-full h-full object-cover opacity-40" 
            />

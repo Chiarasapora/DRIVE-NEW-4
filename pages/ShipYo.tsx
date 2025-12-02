@@ -11,7 +11,7 @@ const ShipYo: React.FC = () => {
       <section className="py-24 bg-[#080a10] relative overflow-hidden">
         <div className="absolute inset-0 z-0">
            <img 
-             src="https://images.unsplash.com/photo-1620121692029-d088224ddc74?auto=format&fit=crop&w=2000&q=80" 
+             src="/SHIPYO/Hero_Section_Shipyo.webp" 
              alt="Digital Finance Abstract" 
              className="w-full h-full object-cover opacity-30" 
            />
@@ -50,7 +50,7 @@ const ShipYo: React.FC = () => {
           <div className="rounded-xl overflow-hidden shadow-2xl border border-gray-800 relative group">
             <div className="absolute inset-0 bg-drive-accent/10 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none"></div>
             <img 
-              src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80" 
+              src="/SHIPYO/Foto_1_Shipyo.webp" 
               alt="ShipYo Dashboard Analytics" 
               className="w-full object-cover" 
             />
@@ -127,7 +127,7 @@ const ShipYo: React.FC = () => {
                 {/* Background Image */}
                 <div className="absolute inset-0">
                   <img 
-                    src="https://images.unsplash.com/photo-1556742044-3c52d6e88c62?auto=format&fit=crop&w=1000&q=80" 
+                    src="/SHIPYO/Card_1_Shipyo.webp" 
                     alt="Payment Link Sales" 
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   />
@@ -168,7 +168,7 @@ const ShipYo: React.FC = () => {
                 {/* Background Image */}
                 <div className="absolute inset-0">
                   <img 
-                    src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1000&q=80" 
+                    src="/SHIPYO/Card_2_Shipyo.webp" 
                     alt="API Code Integration" 
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   />
@@ -239,7 +239,7 @@ const ShipYo: React.FC = () => {
       {/* Full Width Visual Banner */}
       <section className="h-[300px] w-full relative overflow-hidden">
          <img 
-            src="https://images.unsplash.com/photo-1556740749-887f6717d7e4?auto=format&fit=crop&w=2000&q=80" 
+            src="/SHIPYO/Transizione_Shipyo.webp" 
             alt="Fintech Payment Terminals"
             className="w-full h-full object-cover object-center"
          />
@@ -282,7 +282,7 @@ const ShipYo: React.FC = () => {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <img
-            src="https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?auto=format&fit=crop&w=2000&q=80"
+            src="/SHIPYO/CTA_Shipyo.webp"
             alt="Digital Finance Growth"
             className="w-full h-full object-cover"
           />

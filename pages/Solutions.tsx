@@ -11,7 +11,7 @@ const Solutions: React.FC = () => {
       title: 'Digitalizzazione & Trasformazione',
       desc: 'Non si tratta solo di eliminare la carta, ma di connettere persone, dati e macchine. Aiutiamo le aziende a diventare "Data Driven" e molto più efficienti.',
       points: ['Assessment Maturità Digitale', 'Ottimizzazione Flussi ERP', 'CRM e Performance Marketing'],
-      img: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=600&q=80',
+      img: '/SERVIZI/Digitalizzazione_Trasformazione_Servizi.webp',
       action: 'Vai a Trasformazione Digitale',
       link: '/servizi/digital-transformation'
     },
@@ -20,7 +20,7 @@ const Solutions: React.FC = () => {
       title: 'AI & Automazione Intelligente',
       desc: 'Sfruttiamo il Machine Learning e i Large Language Models (LLM) per automatizzare i compiti ripetitivi e generare insight predittivi.',
       points: ['Agenti AI Personalizzati', 'Analisi Predittiva Vendite', 'Automazione Documentale'],
-      img: 'https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=600&q=80',
+      img: '/SERVIZI/Ai_Servizi.webp',
       action: 'Vai a AI & Automazione',
       reversed: true,
       link: '/servizi/ai-flows'
@@ -30,7 +30,7 @@ const Solutions: React.FC = () => {
       title: 'Sviluppo E-commerce & Customer Experience',
       desc: 'Creiamo strumenti di vendita performanti. Dal design alla messa online, fino all\'assistenza post-lancio per trasformare i visitatori in clienti.',
       points: ['Sviluppo Piattaforme Custom', 'UX/UI Design', 'Assistenza tecnica continua'],
-      img: 'https://images.unsplash.com/photo-1556740758-90de374c12ad?auto=format&fit=crop&w=600&q=80',
+      img: '/SERVIZI/Ecommerce_Servizi.webp',
       action: 'Vai a Sviluppo E-commerce',
       link: '/servizi/ecommerce-amazon'
     },
@@ -39,7 +39,7 @@ const Solutions: React.FC = () => {
       title: 'Amazon Management',
       desc: 'Gestiamo il tuo account Amazon a 360°: dalla logistica FBA all\'advertising PPC, proteggendo il tuo brand.',
       points: ['Setup Account & Brand Protection', 'Gestione Campagne Advertising', 'Espansione Pan-Europea'],
-      img: 'https://images.unsplash.com/photo-1523474253046-8cd2748b5fd2?auto=format&fit=crop&w=600&q=80',
+      img: '/SERVIZI/Amazon_Servizi.webp',
       action: 'Vai a Amazon Management',
       reversed: true,
       link: '/servizi/ecommerce-amazon'
@@ -49,7 +49,7 @@ const Solutions: React.FC = () => {
       title: 'Finanza Agevolata & Incentivi 5.0',
       desc: 'Il nostro team gestisce le pratiche per ottenere Bandi e Crediti d\'Imposta, riducendo drasticamente l\'impatto economico del tuo investimento.',
       points: ['Recupero fino al 50% dei costi', 'Gestione Burocrazia 100%', 'Consulenza Credito d\'Imposta 5.0'],
-      img: 'https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=600&q=80',
+      img: '/SERVIZI/Finanza_Servizi.webp',
       action: 'Vai a Finanza Agevolata',
       link: '/servizi/funding'
     }
@@ -61,7 +61,7 @@ const Solutions: React.FC = () => {
       <section className="py-24 bg-[#080a10] relative overflow-hidden">
         <div className="absolute inset-0 z-0">
            <img 
-             src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=2000&q=80" 
+             src="/SERVIZI/Hero_Section_Servizi.webp" 
              alt="Ecosistema Digitale" 
              className="w-full h-full object-cover opacity-40" 
            />
@@ -136,21 +136,21 @@ const Solutions: React.FC = () => {
                    step: '01', 
                    title: 'Assessment', 
                    desc: 'Analizziamo i processi attuali e identifichiamo le opportunità di miglioramento.',
-                   img: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=800&q=80',
+                   img: '/SERVIZI/Assessment_Servizi.webp',
                    color: 'blue'
                  },
                  { 
                    step: '02', 
                    title: 'Strategy & Funding', 
                    desc: 'Roadmap tecnologica e ricerca fondi per finanziare il progetto.',
-                   img: 'https://images.unsplash.com/photo-1553877615-30c73e656bb3?auto=format&fit=crop&w=800&q=80',
+                   img: '/SERVIZI/Strategy_Funding_Servizi.webp',
                    color: 'purple'
                  },
                  { 
                    step: '03', 
                    title: 'Execution', 
                    desc: 'Sviluppo Agile, formazione del team e monitoraggio costante.',
-                   img: 'https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=800&q=80',
+                   img: '/SERVIZI/Execution_Servizi.webp',
                    color: 'green'
                  }
                ].map((item, i) => (
@@ -192,7 +192,7 @@ const Solutions: React.FC = () => {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <img
-            src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=2000&q=80"
+            src="/SERVIZI/CTA_Servizi.webp"
             alt="Team working on tech"
             className="w-full h-full object-cover"
           />

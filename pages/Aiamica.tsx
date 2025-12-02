@@ -23,7 +23,7 @@ const Aiamica: React.FC = () => {
       <section className="py-24 bg-[#080a10] relative overflow-hidden">
         <div className="absolute inset-0 z-0">
            <img 
-             src="https://images.unsplash.com/photo-1616469829941-c7200edec809?auto=format&fit=crop&w=2000&q=80" 
+             src="/AIAMICA/Hero_Section_AiAmica.webp" 
              alt="AI Abstract Learning" 
              className="w-full h-full object-cover opacity-30" 
            />
@@ -61,7 +61,7 @@ const Aiamica: React.FC = () => {
           <div className="rounded-xl overflow-hidden shadow-2xl border border-gray-800 relative group">
             <div className="absolute inset-0 bg-drive-accent/10 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none"></div>
             <img 
-              src="https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=1200&q=80" 
+              src="/AIAMICA/Foto_1_AiAmica.webp" 
               alt="Aiamica Learning Platform" 
               className="w-full object-cover" 
             />
@@ -138,7 +138,7 @@ const Aiamica: React.FC = () => {
                 {/* Background Image */}
                 <div className="absolute inset-0">
                   <img 
-                    src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1000&q=80" 
+                    src="/AIAMICA/Card_1_AiAmica.webp" 
                     alt="Team Learning" 
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   />
@@ -179,7 +179,7 @@ const Aiamica: React.FC = () => {
                 {/* Background Image */}
                 <div className="absolute inset-0">
                   <img 
-                    src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1000&q=80" 
+                    src="/AIAMICA/Card_2_AiAmica.webp" 
                     alt="Performance Dashboard" 
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   />
@@ -250,7 +250,7 @@ const Aiamica: React.FC = () => {
       {/* Full Width Visual Banner */}
       <section className="h-[300px] w-full relative overflow-hidden">
          <img 
-            src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=2000&q=80" 
+            src="/AIAMICA/Transizione_AiAmica.webp" 
             alt="Futuristic Robot Human Interaction"
             className="w-full h-full object-cover object-center"
          />
@@ -291,7 +291,7 @@ const Aiamica: React.FC = () => {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <img
-            src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=2000&q=80"
+            src="/AIAMICA/CTA_AIAMica.webp"
             alt="AI Digital Future"
             className="w-full h-full object-cover"
           />

@@ -47,7 +47,7 @@ const Products: React.FC = () => {
       <section className="py-24 bg-[#080a10] relative overflow-hidden">
         <div className="absolute inset-0 z-0">
            <img 
-             src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=2000&q=80" 
+             src="/PRODOTTI/Hero_Section_Prodotti.webp" 
              alt="Products Ecosystem" 
              className="w-full h-full object-cover opacity-30" 
            />
@@ -135,7 +135,7 @@ const Products: React.FC = () => {
          {/* Background Image */}
          <div className="absolute inset-0 z-0">
           <img
-            src="https://images.unsplash.com/photo-1504384308090-c54be3855833?auto=format&fit=crop&w=2000&q=80"
+            src="/PRODOTTI/CTA_Prodotti.webp"
             alt="Tech Products Background"
             className="w-full h-full object-cover"
           />

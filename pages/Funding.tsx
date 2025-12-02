@@ -25,7 +25,7 @@ const Funding: React.FC = () => {
       <section className="py-24 bg-[#080a10] relative overflow-hidden">
         <div className="absolute inset-0 z-0">
            <img 
-             src="https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=2000&q=80" 
+             src="/FUNDING/Hero_Section_Funding.webp" 
              alt="Colorful Finance Abstract" 
              className="w-full h-full object-cover opacity-40" 
            />
@@ -159,7 +159,7 @@ const Funding: React.FC = () => {
                 {/* Background Image */}
                 <div className="absolute inset-0">
                   <img 
-                    src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=1000&q=80" 
+                    src="/FUNDING/Card_1_Funding.webp" 
                     alt="Industry 4.0" 
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   />
@@ -200,7 +200,7 @@ const Funding: React.FC = () => {
                 {/* Background Image */}
                 <div className="absolute inset-0">
                   <img 
-                    src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1000&q=80" 
+                    src="/FUNDING/Card_2_Funding.webp" 
                     alt="Training and Skills" 
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   />
@@ -271,7 +271,7 @@ const Funding: React.FC = () => {
       {/* Full Width Visual Banner */}
       <section className="h-[300px] w-full relative overflow-hidden">
          <img 
-            src="https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=2000&q=80" 
+            src="/FUNDING/Transizione_Funding.webp" 
             alt="Financial Growth Charts"
             className="w-full h-full object-cover object-center"
          />
@@ -283,7 +283,7 @@ const Funding: React.FC = () => {
          {/* Background Image */}
          <div className="absolute inset-0 z-0">
           <img
-            src="https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=2000&q=80"
+            src="/FUNDING/CTA_Funding.webp"
             alt="Finance Success"
             className="w-full h-full object-cover"
           />
